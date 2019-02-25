@@ -6,6 +6,7 @@ module.exports = {
     entry: {
         app: path.join(__dirname, '../client/server.entry.js')
     },
+    mode: 'development',
     output: {
         filename: 'sever.entry.js',
         path: path.join(__dirname, '../dist'),

@@ -6,6 +6,7 @@ const config = {
     entry: {
         app: path.join(__dirname, '../client/app.js')
     },
+    mode: 'development',
     output: {
         filename: '[name].[hash].js',
         path: path.join(__dirname, '../dist'),
